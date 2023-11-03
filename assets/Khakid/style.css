@@ -1,0 +1,180 @@
+  
+  body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  
+  .pr{
+    display: none;
+}
+.ptn{
+    width: 80px;
+}
+.ddd{
+    display: none;
+}  
+.show{
+    display: none;
+}
+.show.active{
+    display: block;
+}
+.FST{
+    font-size: 15px;
+}
+@media print {
+   .no-print {
+    display: none;
+   }
+   
+
+}
+@media  screen and ( max-width: 768px) {
+    .fns{
+        font-size: 3vw;
+    }
+   
+    .pr{
+        display: block;
+        font-size: 9px;
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .FFF div p{
+        font-size: 9px;
+
+    }
+    .FFF div h6{
+        font-size:10px;
+    }
+    .PNG div img{
+        width: 30PX;
+    }
+
+    .FSTD{
+        font-size: 8px;
+       padding-top: 0px;
+       padding-bottom: 0px;
+    }
+    .tol{
+        height: 80%;
+       
+    }
+    .crd{
+        height: 25%;
+    }
+    .FST{
+        font-size: 5px;
+    }
+    .ptn{
+        width: 40px;
+        height: 10px;
+        padding-bottom: 15px;
+        justify-content: center;    
+    }
+.place{
+    margin-left: 100px;
+    margin-top: -35%;
+}  
+.MMM{
+    margin-left: 14%;
+}  
+  
+.dddd{
+   display: none;
+    
+} 
+.ddd{
+    display: block;
+}   
+.gal{
+    width: ;
+}
+.fff{
+    font-size: 2vw;
+}
+.bns{
+    
+}
+    
+}
+.gal{
+    width: 20%;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 2% 5%;
+}
+
+a:hover {
+    color: #39db4a;
+}
+
+.marg {
+    margin: 1.5vw auto;
+    padding: 0;
+}
+
+.bg {
+    margin: 1vw 1vw;
+}
+
+.btn {
+    background-color: #39db4a;
+    border: solid #39db4a 1px;
+    border-radius: 1.5vw;
+}
+
+.burg-icon {
+    position: absolute;
+    right: 5vw;
+    top: 2.5vw;
+    cursor: pointer;
+}
+
+#links {
+    display: none;
+}
+
+#links li{
+    background-color: rgb(57, 219, 74, 20%);
+    margin-bottom: 1vw;
+    padding: 1vw;
+}
+
+.icon-social {
+    margin-left: 2vw;
+}
+
+@media (max-width: 768px) {
+    .burger {
+        display: none;
+    }
+
+    .burg-icon {
+        display: block;
+    }
+
+   
+    
+}
+
+
+@media (min-width: 769px) {
+    .burg-icon {
+        display: none; 
+    }
+}
